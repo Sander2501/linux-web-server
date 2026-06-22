@@ -68,6 +68,7 @@ About Page
 <img width="1919" height="873" alt="Schermafbeelding 2026-06-22 120521" src="https://github.com/user-attachments/assets/021a7d3e-6826-4d05-88a5-6436f816975f" />
 
 Health Endpoint
+
 <img width="366" height="67" alt="Schermafbeelding 2026-06-22 120618" src="https://github.com/user-attachments/assets/ca3a9bf1-e1bf-4b6c-96c8-9f234e728c43" />
 
 ## Project Structure
