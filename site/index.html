@@ -2,34 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Linux Web Server Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #111827;
-            color: white;
-            text-align: center;
-            padding-top: 100px;
-        }
-
-        .card {
-            background: #1f2937;
-            padding: 40px;
-            margin: auto;
-            width: 60%;
-            border-radius: 12px;
-        }
-
-        h1 {
-            color: #38bdf8;
-        }
-    </style>
+    <title>Linux Web Server</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="card">
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/health">Health</a>
+    </nav>
+
+    <div class="container">
         <h1>Linux Web Server Project</h1>
-        <p>This website is served by Nginx running inside Docker.</p>
-        <p>Built as part of my Linux home lab.</p>
+        <p>This website is served by Nginx running inside a Docker container.</p>
+
+        <div class="card">
+            <h2>Stack</h2>
+            <p>Linux, Docker, Docker Compose, and Nginx.</p>
+        </div>
+
+        <div class="card">
+            <h2>Purpose</h2>
+            <p>This project demonstrates basic web hosting and containerized infrastructure.</p>
+        </div>
     </div>
 </body>
 </html>
